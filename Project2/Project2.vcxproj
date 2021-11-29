@@ -114,7 +114,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.52">
-      <HintPath>..\..\Project1\Project1\Bunifu_UI_v1.52.dll</HintPath>
+      <HintPath>Bunifu_UI_v1.52.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
