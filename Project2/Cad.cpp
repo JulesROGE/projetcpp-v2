@@ -3,9 +3,7 @@
 compData::Cad::Cad(void)
 {
 	this->sCnx = "Data Source=localHost;Initial Catalog=Projet-Groupe4;Persist Security Info=True;User ID=SA;Password=82RnAvRf3";
-
 	this->sSql = "Rien";
-
 	this->oCnx = gcnew System::Data::SqlClient::SqlConnection(this->sCnx);
 	this->oCmd = gcnew System::Data::SqlClient::SqlCommand(this->sSql, this->oCnx);
 	this->oDA = gcnew System::Data::SqlClient::SqlDataAdapter();
